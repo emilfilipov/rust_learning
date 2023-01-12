@@ -3,12 +3,14 @@ mod even_fibonacci_sum;
 mod largest_prime_factors;
 mod multiples_of;*/
 mod smallest_multiple;
+mod square_diff;
 
 /*use crate::multiples_of::multiples_of_num;
 use crate::largest_prime_factors::prime_factors;
 use crate::even_fibonacci_sum::fib_seq;
 use crate::largest_palindrome_product::largest_palindrome_product;*/
 use crate::smallest_multiple::smallest_multiple_range;
+use crate::square_diff::sum_square_difference;
 
 
 
@@ -24,9 +26,11 @@ fn main() {
     prime_factors(600851475143);
     // Problem 4
     println!("Solution to Problem 4!");
-    largest_palindrome_product();*/
+    largest_palindrome_product();
     // Problem 5
     println!("Solution to Problem 5!");
     smallest_multiple_range(20);
-    println!("{}", (232792560 == 232792560));
+    println!("{}", (232792560 == 232792560));*/
+    // Problem 6
+    sum_square_difference() // 25164150 25164150
 }
