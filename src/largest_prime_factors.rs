@@ -38,6 +38,7 @@ pub fn prime_factors(mut n: i64) {
             }
         }
         }
+    println!("Largest prime factor of {:?}", factors.iter());
     println!("Largest prime factor of {}: {:?}", n, factors.iter().max().unwrap());
 
 }
