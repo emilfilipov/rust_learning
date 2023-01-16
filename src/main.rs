@@ -1,18 +1,20 @@
-//mod largest_palindrome_product;
-//mod even_fibonacci_sum;
-//mod largest_prime_factors;
-//mod multiples_of;
-//mod smallest_multiple;
-//mod square_diff;
-mod nth_prime;
+/*mod problem01;
+mod problem02;
+mod problem03;
+mod problem04;
+mod problem05;
+mod problem06;
+mod problem07;*/
+mod problem08;
 
-//use crate::multiples_of::multiples_of_num;
-//use crate::largest_prime_factors::prime_factors;
-//use crate::even_fibonacci_sum::fib_seq;
-//use crate::largest_palindrome_product::largest_palindrome_product;
-//use crate::smallest_multiple::smallest_multiple_range;
-//use crate::square_diff::sum_square_difference;
-use nth_prime::get_prime;
+/*use crate::problem01::multiples_of_num;
+use crate::problem02::fib_seq;
+use crate::problem03::prime_factors;
+use crate::problem04::largest_palindrome_product;
+use crate::problem05::smallest_multiple_range;
+use crate::problem06::sum_square_difference;
+use crate::problem07::get_prime;*/
+use crate::problem08::largest_product_series2;
 
 
 fn main() {
@@ -35,5 +37,7 @@ fn main() {
     // Problem 6
     //sum_square_difference(); // 25164150 25164150
     // Problem 7
-    get_prime(); // 104743 == 104743
+    //get_prime(); // 104743 == 104743
+    //Problem 8
+    largest_product_series2();
 }
