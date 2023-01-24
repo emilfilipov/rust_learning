@@ -5,8 +5,9 @@ mod problem04;
 mod problem05;
 mod problem06;
 mod problem07;
-mod problem08;*/
-mod problem09;
+mod problem08;
+mod problem09;*/
+mod problem10;
 
 /*use crate::problem01::multiples_of_num;
 use crate::problem02::fib_seq;
@@ -15,8 +16,9 @@ use crate::problem04::largest_palindrome_product;
 use crate::problem05::smallest_multiple_range;
 use crate::problem06::sum_square_difference;
 use crate::problem07::get_prime;
-use crate::problem08::largest_product_series2;*/
-use crate::problem09::pyth_triplets;
+use crate::problem08::largest_product_series2;
+use crate::problem09::pyth_triplets;*/
+use crate::problem10::summation_of_primes;
 
 
 
@@ -41,9 +43,12 @@ fn main() {
     //sum_square_difference(); // 25164150 25164150
     // Problem 7
     //get_prime(); // 104743 == 104743
-    //Problem 8
+    // Problem 8
     //largest_product_series2();
-    //Problem 9
-    pyth_triplets()
+    // Problem 9
+    //pyth_triplets()
+    // Problem 10
+    summation_of_primes()
+
 
 }

@@ -1,0 +1,1 @@
+This repository is meant to be a tracker of my progress in learning the Rust programming language via Project Euler problems.
